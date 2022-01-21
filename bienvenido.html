@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>binevenido</title>
+	<link type="text/css" rel="stylesheet" href= "estilos_pag_principal.css"/>
+</head>
+<body>
+
+	<br>
+	<h1><marquee>BIENVENIDO AL CONVERTIDOR DE MONEDAS</marquee></h1><br>
+
+	<form action="proceso.php" method="POST">
+	<label for="">Cantidad en pesos: </label>			
+	<input type="text" name="pesos">
+	<label for="">Moneda</label>
+	<select name="moneda">
+		<option value="dolar">Dólar</option>
+		<option value="euro">Euro</option>
+		</select>
+		<br>
+		<br>
+		<br>
+		<input type="submit" name="Calcular">
+		<br>
+</form>
+	<form action="proceso1.php" method="POST">
+	<label for="">Cantidad en Dólares: </label>			
+	<input type="text" name="dolar">
+	<label for="">Moneda</label>
+	<select name="moneda">
+		<option value="pesos">Pesos</option>
+		<option value="euro">Euro</option>
+		</select>
+		<br>
+		<br>
+		<br>
+<input type="submit" name="Calcular">
+
+	</form>
+
+	<form action="proceso2.php" method="POST">
+	<label for="">Cantidad en Euros: </label>			
+	<input type="text" name="euro">
+	<label for="">Moneda</label>
+	<select name="moneda">
+		<option value="pesos">Pesos</option>
+		<option value="dolar">Dólar</option>
+		</select>
+		<br>
+		<br>
+		<br>
+<input type="submit" name="Calcular">
+
+</form>
+<br>
+		<br>
+		<br>
+
+</body>
+</html>
